@@ -1,0 +1,6 @@
+(version 1)
+# Through-hole pads are plated through both ground pours, so a single spoke on one layer still
+# gives a solid ground connection; this only relaxes the default 2-spoke soldering guideline.
+(rule "tht_min_one_spoke"
+  (condition "A.Pad_Type == 'Through-hole'")
+  (constraint min_resolved_spokes (min 1)))
