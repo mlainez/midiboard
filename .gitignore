@@ -20,6 +20,7 @@ __pycache__/
 
 # Local tooling
 .claude/settings.local.json
+.claude/worktrees/
 *.jar
 
 # Editors / OS

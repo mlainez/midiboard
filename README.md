@@ -116,3 +116,9 @@ FREEROUTING_JAR=/path/to/freerouting-2.1.0.jar ./build.sh
 board, autoroutes it with Freerouting (headless), adds the ground pours, runs DRC with schematic parity and
 writes the JLCPCB files, then checks the gerber copper. It needs KiCad 7 `pcbnew` Python, `kiutils`, numpy,
 scipy, pillow, gerbv, Java 21 and a KiCad >= 8 `kicad-cli` (defaults to the KiCad Flatpak).
+
+## License
+
+Copyright (c) 2026 Marc Lainez. Licensed under
+[Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)
+(CC BY-SA 4.0), see `LICENSE`.
